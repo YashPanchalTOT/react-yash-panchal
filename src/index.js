@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// impoart App from './App';
+import App from './Day 2/App'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App 
+      firstName="Yash"
+      lastName="Panchal"
+      city="Ahmedabad"
+      state="Gujarat"
+      country="India" 
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
