@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import Button from './Button';
-//import PureComponent from './PureComponent'
 import LifeCycle from './LifeCycle'
 
 class App extends Component{
@@ -30,7 +29,6 @@ class App extends Component{
                    <Button title="Decrement" clicked={() => this.decrementCountFunction()}></Button>
                    <Button title="Reset" clicked={() => this.resetCountFunction()}></Button> 
                 </div>
-                {/* <PureComponent/> */}
                 <LifeCycle myNumber={this.state.count}/>
             </>
         );
