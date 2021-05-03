@@ -24,7 +24,6 @@ class App extends Component{
         return(
             <>
                 <div>
-                    {/* <Button /> */}
                    <Button title="Increment" clicked={() => this.incrementCountFunction()}></Button>
                    <Button title="Decrement" clicked={() => this.decrementCountFunction()}></Button>
                    <Button title="Reset" clicked={() => this.resetCountFunction()}></Button> 

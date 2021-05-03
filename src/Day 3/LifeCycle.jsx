@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
-console.log("Life cycle started");
 class Lifecycle extends Component {
     
+    state = {
+        count: 0
+    }
     componentDidMount(){
         console.log("Component is mounted successfully");
     }  
 
-    // static getDerivedStateFromProps(props, state){
-    //     console.log("Component will receive props");
-    // }
+    static getDerivedStateFromProps(props, state){
+        console.log("Component will receive props");
+        return null;
+    }
 
     shouldComponentUpdate(newProps, newState){
         return true;
@@ -33,5 +36,4 @@ class Lifecycle extends Component {
     }
     
 }
-console.log("lifecycle ended");
 export default Lifecycle;
