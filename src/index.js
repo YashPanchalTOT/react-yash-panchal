@@ -1,11 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// impoart App from './App';
-// import App from './Day 2/App'
-import App from './Day 3/App'
-import ErrorBoundary from './Day 3/ErrorBoundary';
 import reportWebVitals from './reportWebVitals';
+    
+    // Day - 1 
+// impoart App from './App';
+    
+    // Day - 2
+// import App from './Day 2/App'
+    
+    // Day - 3
+// import App from './Day 3/App'
+// import ErrorBoundary from './Day 3/ErrorBoundary';
+    
+    // Day - 4
+import App from './Day 4/App'
+import ErrorBoundary from './Day 4/ErrorBoundary';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,8 +32,13 @@ ReactDOM.render(
        /> */}
        
   {/* Day - 3 */}
-    <ErrorBoundary>
+    {/* <ErrorBoundary>
       <App/>
+    </ErrorBoundary> */}
+
+  {/* Day - 4 */}
+    <ErrorBoundary>
+      <App name="Yash"/>
     </ErrorBoundary>
   </React.StrictMode>,
     

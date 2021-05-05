@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+
 class Lifecycle extends Component {
     
     state = {
         count: 0
     }
+
     componentDidMount(){
         console.log("Component is mounted successfully");
     }  
@@ -33,7 +35,7 @@ class Lifecycle extends Component {
                 <h3>{this.props.myNumber}</h3>
             </div>
         );
-    }
-    
+    }      
 }
+
 export default Lifecycle;
