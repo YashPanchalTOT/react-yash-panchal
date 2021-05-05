@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/YashPanchalTOT/react-yash-panchal.git/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/YashPanchalTOT/react-yash-panchal.git/static/js/main.cf93bcd7.chunk.js",
+    "main.js.map": "/YashPanchalTOT/react-yash-panchal.git/static/js/main.cf93bcd7.chunk.js.map",
+    "runtime-main.js": "/YashPanchalTOT/react-yash-panchal.git/static/js/runtime-main.b8f61550.js",
+    "runtime-main.js.map": "/YashPanchalTOT/react-yash-panchal.git/static/js/runtime-main.b8f61550.js.map",
+    "static/js/2.9e829849.chunk.js": "/YashPanchalTOT/react-yash-panchal.git/static/js/2.9e829849.chunk.js",
+    "static/js/2.9e829849.chunk.js.map": "/YashPanchalTOT/react-yash-panchal.git/static/js/2.9e829849.chunk.js.map",
+    "static/js/3.1f2b1942.chunk.js": "/YashPanchalTOT/react-yash-panchal.git/static/js/3.1f2b1942.chunk.js",
+    "static/js/3.1f2b1942.chunk.js.map": "/YashPanchalTOT/react-yash-panchal.git/static/js/3.1f2b1942.chunk.js.map",
+    "index.html": "/YashPanchalTOT/react-yash-panchal.git/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/YashPanchalTOT/react-yash-panchal.git/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.9e829849.chunk.js.LICENSE.txt": "/YashPanchalTOT/react-yash-panchal.git/static/js/2.9e829849.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8f61550.js",
+    "static/js/2.9e829849.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.cf93bcd7.chunk.js"
+  ]
+}
